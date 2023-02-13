@@ -1,0 +1,5 @@
+.fader{
+    box-shadow: 0px -20px 20px 8px white;
+    z-index: 12;
+    position: absolute;
+}

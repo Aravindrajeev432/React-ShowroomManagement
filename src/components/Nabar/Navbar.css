@@ -1,0 +1,4 @@
+.swing:hover{
+    animation: swing;
+    animation-duration: 1s;
+}
