@@ -133,7 +133,7 @@ function Services() {
 
   async function filedownloader(id) {
     axios
-      .get(`${baseUrl}services/billgenerator/${id}`, { responseType: "blob" })
+      .get(`${baseUrl}/services/billgenerator/${id}`, { responseType: "blob" })
       .then((response) => {
         window.open(URL.createObjectURL(response.data));
       });
